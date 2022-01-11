@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>mypage.html</h2>
+<!-- common 안 담겨있는 값을 쓰는것, 상수로 선언한 변수 이름을 쓰는것이 아님! -->
+세션 : <p th:text="${session['loginEmail']}"></p>
+<a href="/member/update/">정보수정</a>
+
+<!-- 정보수정 링크를 클랙하면 update.html에 DB에 저장된 정보를 form, input태그를 이용하여 출력, 이름만 수정 가능하도록 -->
+</body>
+</html>
