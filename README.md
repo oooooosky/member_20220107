@@ -6,3 +6,6 @@ Annotation Processors에 들어가 Enable anootation processing 체크 후 Apply
 - Spring Boot 에서 Mybatis 사용법 배우기.
 - Mybatis로 목록조회, 회원가입 해보기.
 - 정리 여부 : O
+
+## 20220112
+- Interceptor 정리

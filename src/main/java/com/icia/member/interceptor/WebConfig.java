@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 // @Configuration : 설정정보를 스프링 실행 시 등록해줌.
 // 차후에 확인할 때 불편하다면 아래 @Configuration 을 주석처리하면 된다.ㄴ
-//@Configuration
+@Configuration
 public class WebConfig implements WebMvcConfigurer {
 
     // 로그인 여부에 따른 접속 가능 페이지 구분
